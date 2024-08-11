@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fundaments App Router
 
-## Getting Started
+Este repositório contém os códigos e exemplos práticos desenvolvidos durante o curso **Next.js App Router e Testes** da Rocketseat. No módulo 1, intitulado **Fundamento do App Router**, exploramos conceitos essenciais do Next.js e a aplicação prática deles.
 
-First, run the development server:
+## 📚 Conteúdos Abordados
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Criando Projeto Next.js
+- Configuração inicial de um projeto com Next.js.
+- Estrutura básica de pastas e arquivos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Rotas e Layout
+- Criação de rotas estáticas e dinâmicas.
+- Implementação de layouts compartilhados.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Grupos e Rotas Dinâmicas
+- Organização de rotas em grupos.
+- Manipulação de rotas dinâmicas.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 4. Arquitetura do Next.js
+- Entendimento da estrutura e arquitetura do Next.js.
+- Como o Next.js lida com SSR, SSG e ISR.
 
-## Learn More
+### 5. React Server Components
+- Utilização de componentes React no lado do servidor.
+- Vantagens e limitações dos React Server Components.
 
-To learn more about Next.js, take a look at the following resources:
+### 6. Fetch de Dados nos Componentes
+- Técnicas de busca de dados em componentes React.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 7. Loading e Streaming SSR
+- Implementação de loaders e otimização do SSR.
+- Streaming de conteúdo para melhorar a performance.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 8. Abstraindo Client Components
+- Criação e abstração de componentes no lado do cliente.
+- Organização de componentes reutilizáveis.
 
-## Deploy on Vercel
+### 9. Client Boundaries e Encadeamento
+- Implementação de Client Boundaries.
+- Encadeamento de componentes para melhorar a UX.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 10. Árvore de Componentes no Next.js
+- Estruturação da árvore de componentes.
+- Melhorando a organização e manutenção do código.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 11. Suspense API no React
+- Utilização da Suspense API para lidar com carregamentos assíncronos.
+- Melhorando a experiência do usuário com carregamentos mais suaves.
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/joaomacaoli/fundaments-app-router.git
+   ```
+
+2. Instale as dependências:
+   ```bash
+   cd fundaments-app-router
+   npm install
+   ```
+
+3. Execute o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+4. Abra seu navegador e acesse:
+   ```
+   http://localhost:3000
+   ```
+
+## 🔗 Links
+
+- [Repositório no GitHub](https://github.com/joaomacaoli/fundaments-app-router)
+- [Documentação do Next.js](https://nextjs.org/docs)
+- [Curso Rocketseat](https://www.rocketseat.com.br/)
+
+## 🤝 Contribuições
+
+Sinta-se à vontade para fazer um fork do projeto e contribuir com melhorias ou sugestões. Pull requests são sempre bem-vindos! 😄
+
+## 📝 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
